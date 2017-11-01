@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`1. babel-plugin-fizzbuzz 1`] = `
+"
+for (var i=0; i<100; i++) {
+  console.log(i)
+}
+
+      ↓ ↓ ↓ ↓ ↓ ↓
+
+for (var i = 0; i < 100; i++) {
+  console.log(i % 15 === 0 ? 'FizzBuzz' : i % 3 === 0 ? 'Fizz' : i % 5 === 0 ? 'Buzz' : i);
+}
+"
+`;
+
+exports[`2. babel-plugin-fizzbuzz 1`] = `
+"
+for (var j=0; j<100; j++) {
+  console.log(j)
+}
+
+      ↓ ↓ ↓ ↓ ↓ ↓
+
+for (var j = 0; j < 100; j++) {
+  console.log(j % 15 === 0 ? 'FizzBuzz' : j % 3 === 0 ? 'Fizz' : j % 5 === 0 ? 'Buzz' : j);
+}
+"
+`;
