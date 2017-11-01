@@ -12,7 +12,6 @@
   "files": ["lib"],
   "scripts": {
     "add-contributor": "all-contributors add",
-    "add:cov": "cat ./coverage/lcov.info | coveralls",
     "precommit": "lint-staged",
     "build": "babel src -d lib --ignore *.test.js,__fixtures__",
     "prepublish": "npm run build",
@@ -21,8 +20,7 @@
     "lint": "eslint src",
     "test": "jest",
     "test:watch": "jest --watch",
-    "test:cov": "jest --coverage --ci --runInBand",
-    "test:ci": "npm run validate && npm run add:cov",
+    "test:ci": "npm run validate",
     "validate": "npm run lint && npm run flow && npm run test:cov"
   },
   "lint-staged": {
