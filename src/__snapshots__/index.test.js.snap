@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`1. babel-plugin-fizzbuzz 1`] = `
+exports[`babel-plugin-fizzbuzz 1. babel-plugin-fizzbuzz: 1. babel-plugin-fizzbuzz 1`] = `
 "
 for (var i=0; i<100; i++) {
   console.log(i)
@@ -14,7 +14,7 @@ for (var i = 0; i < 100; i++) {
 "
 `;
 
-exports[`2. babel-plugin-fizzbuzz 1`] = `
+exports[`babel-plugin-fizzbuzz 2. babel-plugin-fizzbuzz: 2. babel-plugin-fizzbuzz 1`] = `
 "
 for (var j=0; j<100; j++) {
   console.log(j)
